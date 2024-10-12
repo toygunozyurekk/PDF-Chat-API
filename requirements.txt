@@ -1,0 +1,11 @@
+Flask
+python-dotenv
+flask-cors
+langchain
+langchain-community
+langchain-openai
+openai
+pinecone-client
+langchain-pinecone 
+pypdf
+cors
