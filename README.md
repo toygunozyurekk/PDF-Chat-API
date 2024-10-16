@@ -123,7 +123,7 @@ Example:
 404 Not Found: If the provided pdf_id does not exist.
 500 Internal Server Error: If an issue occurs while processing the query.
 
-## 5. Testing Procedures
+##  5. Testing Procedures
 
 ### 5.1 Running the Test Suite
 The project includes unit tests located in the tests/ directory. These tests validate the functionality of the PDF upload and chat features.
@@ -159,6 +159,7 @@ def create_test_pdf(file_path):
 To contribute to the project, please adhere to the following guidelines:
 
 ### 6.1 Documentation
+
 Ensure that the documentation is updated with any changes made to the codebase.
 
 ### 6.2 Testing
