@@ -125,8 +125,10 @@ Example:
 
 ##  5. Testing Procedures
 
-### 5.1 Running the Test Suite
-The project includes unit tests located in the tests/ directory. These tests validate the functionality of the PDF upload and chat features.
+
+
+### 5.1 Running the Test Suite
+The project includes unit tests located in the `tests/` directory. These tests validate the functionality of the PDF upload and chat features.
 
 To run all tests, navigate to the root directory of the project and execute:
 
@@ -135,9 +137,12 @@ python -m unittest discover tests
 ```
 
 
+
 ### 5.2 Example Test Files
 test_pdf_numeric.py: Tests the functionality of uploading PDFs and verifying the correct assignment of **pdf_id** and Pinecone index.
 test_chat_with_pdf.py: Tests the ability to interact with a PDF through the chat interface after uploading it.
+
+
 
 ### 5.3 Creating Test PDFs
 If needed, generate simple PDF files for testing using the FPDF library. Here’s an example function to create a test PDF:
@@ -154,8 +159,8 @@ def create_test_pdf(file_path):
 ```
 
 
-## 6. Contribution Guidelines
 
+## 6. Contribution Guidelines
 To contribute to the project, please adhere to the following guidelines:
 
 ### 6.1 Documentation
