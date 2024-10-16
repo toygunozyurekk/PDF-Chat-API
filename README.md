@@ -139,12 +139,14 @@ python -m unittest discover tests
 
 
 ### 5.2 Example Test Files
+
 test_pdf_numeric.py: Tests the functionality of uploading PDFs and verifying the correct assignment of **pdf_id** and Pinecone index.
 test_chat_with_pdf.py: Tests the ability to interact with a PDF through the chat interface after uploading it.
 
 
 
 ### 5.3 Creating Test PDFs
+
 If needed, generate simple PDF files for testing using the FPDF library. Here’s an example function to create a test PDF:
 
 ```python 
@@ -164,12 +166,14 @@ def create_test_pdf(file_path):
 To contribute to the project, please adhere to the following guidelines:
 
 ### 6.1 Documentation
+
 Ensure that the documentation is updated with any changes made to the codebase.
 
 ### 6.2 Testing
 All contributions should be thoroughly tested. Include unit tests for any new features or bug fixes.
 
 ### 6.3 Code Quality
+
 Follow Python's PEP 8 style guide for code quality. Write clean, maintainable, and efficient code.
 
 
