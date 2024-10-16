@@ -1,3 +1,8 @@
 .env
-venv
-uploads
+/uploads/
+*.pdf
+__pycache__/
+*.pyc
+*.pyo
+*.log
+/venv/
