@@ -23,7 +23,7 @@ To begin, clone the repository to your local machine and navigate into the proje
 \```bash
 git clone <repository-url>
 cd PDF-Chat-API
-\```
+
 
 ### 3.2 Set up the Virtual Environment
 In order to avoid conflicts with other Python projects and to manage dependencies more easily, we will set up a virtual environment. This ensures the project’s dependencies are isolated and won’t interfere with other projects.
@@ -37,14 +37,14 @@ source venv/bin/activate
 
 # On Windows:
 venv\Scripts\activate
-\```
+
 
 ### 3.3 Install Dependencies
 Once the virtual environment is activated, install the project dependencies using pip. These dependencies are listed in the requirements.txt file.
 
 \```bash
 pip install -r requirements.txt
-\```
+
 
 ### 3.4 Environment Configuration
 You need to create a **.env** file to configure environment variables that include your OpenAI and Pinecone API keys.
@@ -56,7 +56,7 @@ Add the following variables:
 OPENAI_API_KEY=<your_openai_api_key>
 PINECONE_API_KEY=<your_pinecone_api_key>
 PINECONE_ENVIRONMENT=<your_pinecone_environment>
-\```
+
 
 Replace **<your_key>** with your actual API keys.
 
@@ -65,7 +65,7 @@ To start the Flask server locally, run the following command:
 
 \```bash
 python app.py
-\```
+
 
 The application will be accessible at **http://127.0.0.1:5000/** by default.
 
@@ -85,7 +85,7 @@ file: Multipart form-data that includes the PDF file to be uploaded.
   "pdf_id": "1",
   "index_name": "sevenapps-1"
 }
-\```
+
 
 #### 4.1.3 Error Responses:
 500 Internal Server Error: If the PDF cannot be processed or stored correctly.
@@ -101,14 +101,14 @@ Example:
 {
   "message": "What is this PDF about?"
 }
-\```
+
 
 #### 4.2.2 Example Response:
 \```json
 {
   "response": "I'm sorry, but I don't have access to the content of the PDF file you are referring to."
 }
-\```
+
 
 #### 4.2.3 Error Responses:
 404 Not Found: If the provided pdf_id does not exist.
@@ -123,7 +123,7 @@ To run all tests, navigate to the root directory of the project and execute:
 
 \```bash
 python -m unittest discover tests
-\```
+
 
 ### 5.2 Example Test Files
 test_pdf_numeric.py: Tests the functionality of uploading PDFs and verifying the correct assignment of **pdf_id** and Pinecone index.
@@ -141,7 +141,7 @@ def create_test_pdf(file_path):
     pdf.set_font("Arial", size=12)
     pdf.cell(200, 10, txt="Test PDF", ln=True, align="C")
     pdf.output(file_path)
-\```python 
+
 
 ## 6. Contribution Guidelines
 
