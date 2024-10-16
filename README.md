@@ -1,6 +1,6 @@
-# PDF Chat API
+# PDF Chat API
 
-## 1. Project Overview
+## 1. Project Overview
 
 The PDF Chat API is a Flask-based application that allows users to upload PDF files and interact with them via a chat-based interface. The application leverages OpenAI's GPT-3.5 and Pinecone for embedding and storing the PDF content, enabling similarity-based search and question answering functionalities.
 
@@ -159,7 +159,6 @@ def create_test_pdf(file_path):
 To contribute to the project, please adhere to the following guidelines:
 
 ### 6.1 Documentation
-
 Ensure that the documentation is updated with any changes made to the codebase.
 
 ### 6.2 Testing
