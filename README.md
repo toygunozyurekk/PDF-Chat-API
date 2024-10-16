@@ -162,16 +162,18 @@ def create_test_pdf(file_path):
 
 
 ## 6. Contribution Guidelines
+
 To contribute to the project, please adhere to the following guidelines:
 
-### 6.1 Documentation
+### 6.1 Documentation
 
 Ensure that the documentation is updated with any changes made to the codebase.
 
 ### 6.2 Testing
+
 All contributions should be thoroughly tested. Include unit tests for any new features or bug fixes.
 
-### 6.3 Code Quality
+### 6.3 Code Quality
 
 Follow Python's PEP 8 style guide for code quality. Write clean, maintainable, and efficient code.
 
