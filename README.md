@@ -15,15 +15,17 @@ The PDF Chat API is a Flask-based application that allows users to upload PDF fi
 
 
 
-## 3. Setup Instructions
+## 3. Setup Instructions
 
-### 3.1 Clone the Repository
+### 3.1 Clone the Repository
+
 To begin, clone the repository to your local machine and navigate into the project directory:
 
 ```bash
 git clone <repository-url>
 cd PDF-Chat-API
 ```
+
 
 
 ### 3.2 Set up the Virtual Environment
