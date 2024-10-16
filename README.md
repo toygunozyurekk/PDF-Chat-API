@@ -138,18 +138,16 @@ python -m unittest discover tests
 
 
 
-###  5.2 Example Test Files
+### 5.2 Example Test Files
 
-test_pdf_numeric.py: Tests the functionality of uploading PDFs and verifying the correct assignment of **pdf_id** and Pinecone index.
-test_chat_with_pdf.py: Tests the ability to interact with a PDF through the chat interface after uploading it.
+- **test_pdf_numeric.py**: Tests the functionality of uploading PDFs and verifying the correct assignment of **pdf_id** and Pinecone index.
+- **test_chat_with_pdf.py**: Tests the ability to interact with a PDF through the chat interface after uploading it.
 
-
-
-###  5.3 Creating Test PDFs
+### 5.3 Creating Test PDFs
 
 If needed, generate simple PDF files for testing using the FPDF library. Here’s an example function to create a test PDF:
 
-```python 
+```python
 from fpdf import FPDF
 
 def create_test_pdf(file_path):
@@ -158,7 +156,7 @@ def create_test_pdf(file_path):
     pdf.set_font("Arial", size=12)
     pdf.cell(200, 10, txt="Test PDF", ln=True, align="C")
     pdf.output(file_path)
-```
+
 
 
 
